@@ -36,11 +36,6 @@
           "EMAIL"
         ]
       },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-buildreactappamplify-moved-192651-deployment/amplify-cfn-templates/auth/buildreactappamplify2b445a85-cloudformation-template.json",
-        "logicalId": "authbuildreactappamplify2b445a85"
-      },
-      "lastPushTimeStamp": "2022-05-18T19:29:54.865Z",
       "output": {
         "UserPoolId": "us-east-2_7a7px6sau",
         "AppClientIDWeb": "9k35p6qlbd88aoqtou5fsqbk1",
@@ -50,7 +45,38 @@
         "IdentityPoolName": "buildreactappamplify2b445a85_identitypool_2b445a85__moved",
         "UserPoolName": "buildreactappamplify2b445a85_userpool_2b445a85"
       },
-      "lastPushDirHash": "p/qlSNGm1LQAX3B5ORD1AreAZUg="
+      "lastPushTimeStamp": "2022-05-18T20:17:32.750Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-buildreactappamplify-moved-192651-deployment/amplify-cfn-templates/auth/buildreactappamplify2b445a85-cloudformation-template.json",
+        "logicalId": "authbuildreactappamplify2b445a85"
+      }
+    }
+  },
+  "api": {
+    "notesapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "qrajv4bxx5emjkkl7rsb4acati",
+        "GraphQLAPIEndpointOutput": "https://2e6kttsd7va4hbw7rvj7pfp72e.appsync-api.us-east-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-3cknqsz5zzgqtiqezdrhneed3i"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-buildreactappamplify-moved-192651-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      },
+      "lastPushTimeStamp": "2022-05-18T20:17:39.876Z",
+      "lastPushDirHash": "99y6KYB24W4S24xFtZ1uOzDk6ds="
     }
   }
 }
