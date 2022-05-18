@@ -1,15 +1,15 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplify8acad961b17f4-staging-181548-authRole",
-      "UnauthRoleArn": "arn:aws:iam::222021130060:role/amplify-amplify8acad961b17f4-staging-181548-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::222021130060:role/amplify-amplify8acad961b17f4-staging-181548-authRole",
+      "AuthRoleName": "amplify-buildreactappamplify-moved-192651-authRole",
+      "UnauthRoleArn": "arn:aws:iam::222021130060:role/amplify-buildreactappamplify-moved-192651-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::222021130060:role/amplify-buildreactappamplify-moved-192651-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-amplify8acad961b17f4-staging-181548-deployment",
-      "UnauthRoleName": "amplify-amplify8acad961b17f4-staging-181548-unauthRole",
-      "StackName": "amplify-amplify8acad961b17f4-staging-181548",
-      "StackId": "arn:aws:cloudformation:us-east-2:222021130060:stack/amplify-amplify8acad961b17f4-staging-181548/8b809d10-d6d6-11ec-97c5-0acdbf617c1a",
-      "AmplifyAppId": "d3qi4xfrbgikx2"
+      "DeploymentBucketName": "amplify-buildreactappamplify-moved-192651-deployment",
+      "UnauthRoleName": "amplify-buildreactappamplify-moved-192651-unauthRole",
+      "StackName": "amplify-buildreactappamplify-moved-192651",
+      "StackId": "arn:aws:cloudformation:us-east-2:222021130060:stack/amplify-buildreactappamplify-moved-192651/787ba430-d6e0-11ec-b022-0a337fbb2930",
+      "AmplifyAppId": "d2tnnuar3iapie"
     }
   },
   "auth": {
@@ -37,17 +37,17 @@
         ]
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify8acad961b17f4-staging-181548-deployment/amplify-cfn-templates/auth/buildreactappamplify2b445a85-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-buildreactappamplify-moved-192651-deployment/amplify-cfn-templates/auth/buildreactappamplify2b445a85-cloudformation-template.json",
         "logicalId": "authbuildreactappamplify2b445a85"
       },
-      "lastPushTimeStamp": "2022-05-18T18:32:54.625Z",
+      "lastPushTimeStamp": "2022-05-18T19:29:54.865Z",
       "output": {
-        "UserPoolId": "us-east-2_ZqamyKRkQ",
-        "AppClientIDWeb": "61i96aiptr8rp05nmfhnqb6hdc",
-        "AppClientID": "6hhbpte7flt57qrnsthul31m6i",
-        "IdentityPoolId": "us-east-2:26a58ae5-1f6f-4224-8efd-5421b34d21f0",
-        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:222021130060:userpool/us-east-2_ZqamyKRkQ",
-        "IdentityPoolName": "buildreactappamplify2b445a85_identitypool_2b445a85__staging",
+        "UserPoolId": "us-east-2_7a7px6sau",
+        "AppClientIDWeb": "9k35p6qlbd88aoqtou5fsqbk1",
+        "AppClientID": "5qsflblhg81vk0oucv3aol43be",
+        "IdentityPoolId": "us-east-2:fad8dcfd-0c2a-4812-9e57-32aa9bc419a9",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:222021130060:userpool/us-east-2_7a7px6sau",
+        "IdentityPoolName": "buildreactappamplify2b445a85_identitypool_2b445a85__moved",
         "UserPoolName": "buildreactappamplify2b445a85_userpool_2b445a85"
       },
       "lastPushDirHash": "p/qlSNGm1LQAX3B5ORD1AreAZUg="
